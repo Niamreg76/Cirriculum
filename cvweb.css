@@ -1,0 +1,50 @@
+h1{
+    color: white;
+}
+h2{
+    z-index: 3;
+    position: relative;
+}
+
+
+img{
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+.parentimage{
+    text-align: center;
+}
+#fleche{
+    margin-left: -12px;
+}
+#trait{
+    position: absolute;
+    z-index: 1;
+    margin-left: -250px;
+    margin-top: -100px;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+ul{
+    position: relative;
+    z-index: 3;
+}
+
+#cubenoir{
+    position: absolute;
+    z-index: 1;
+    max-width: 400px;
+    max-height: 200px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+@media (max-width: 768px){
+    #hiddenImg{
+        display: none;
+    }
+    #conteneursuite{
+        margin-top: -120px;
+    }
+}
